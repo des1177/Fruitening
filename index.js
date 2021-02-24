@@ -18,22 +18,6 @@ for (var i = 0; i < numberOffruitsButtons; i++) {
 
 }
 
-
-// function buttonAnimation(currentKey) {
-//
-//   var activeButton = document.querySelector("." + currentKey);
-//
-//   activeButton.classList.add("pressed");
-//
-//   setTimeout(function() { // it means wait for 1 second then run "activeButton.classList.remove("pressed");""
-//     activeButton.classList.remove("pressed");
-//   }, 100);
-//
-// }
-
-
-
-
 // go to info window
 
 $(".fruits").click(function() {

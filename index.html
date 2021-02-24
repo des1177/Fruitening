@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="utf-8">
-  <title>fruitening</title>
+  <title></title>
   <!-- CSS Stylesheets -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
@@ -61,6 +61,8 @@
 
     </div>
 
+    <img id="clickMe" src="images/click.png" alt="">
+
 
     <div class="set">
 
@@ -75,6 +77,15 @@
       <button class="l fruits"><img src="images/mango_1f96d.png"></button>
       <button class="l fruits"><img src="images/strawberry_1f353.png"></button>
     </div>
+
+
+    <span class="badge badge-light">
+      <form class="" action="/" method="post">
+        <label for="cityInput">Search Daily Weather of the City Your Live in to <br> Help Your Plants Grow !</label> <br>
+        <input id="cityInput" type="text" name="cityName" placeholder="Ex. London"><br>
+        <button type="submit" class="btn btn-outline-success">Go</button>
+      </form>
+    </span>
 
     <div class="text">
       <p>These days, more and more people are discovering the joys of playing in the dirt.</p>
@@ -156,7 +167,7 @@
         </ol>
 
         <ol class="how-to-plant" id="strawberry">
-          <li>Extract Seeds from a strawberry  with a toothpick. </li>
+          <li>Extract Seeds from a strawberry with a toothpick. </li>
           <li>Sow the Seeds on moist soil and water regularly.</li>
           <li>Cover the pot with a plastic and place the pot under direct sunlight. </li>
           <li>Once the seedlings (tiny plants) appear, remove the plastic.</li>
@@ -168,6 +179,8 @@
 
       <button onclick="window.location.href = './index.html'" type="button" class="btn btn-secondary">back</button>
     </div>
+
+
   </div>
 
 
@@ -184,8 +197,10 @@
 
 
   <!-- <footer>
-    Made with ❤️ in London.
+    Made with ❤️ in California.
   </footer> -->
+  <!-- make a "post" request to / -->
+
 </body>
 
 </html>

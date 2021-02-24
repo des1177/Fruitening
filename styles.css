@@ -51,8 +51,7 @@ body {
 
 /* info */
 .info{
-  margin: 100px 20%;
-
+  margin: 100px 20% 10px ;
 }
 
 .info p{
@@ -60,6 +59,10 @@ body {
   color: grey;
 }
 
+form{
+
+  margin: 50px auto;
+}
 
 footer {
   color: #DBEDF3;
@@ -67,7 +70,12 @@ footer {
 }
 
 .set {
-  margin: 10% auto;
+  margin: 0 auto;
+}
+
+#clickMe {
+  width: 100px;
+  margin: 100px 500px 10px 10px;
 }
 
 .pressed {
@@ -95,6 +103,23 @@ footer {
   text-align: center;
   margin: 10px;
   background-color: white;
+}
+
+/* weather section */
+.badge{
+  margin: 50px auto;
+}
+form{
+  margin: 50px auto;
+
+}
+.badge form label{
+  font-size: 2rem;
+  font-family: 'Dancing Script', cursive;
+  margin-bottom: 20px;
+}
+form button{
+  margin-top: 20px;
 }
 
 
@@ -166,4 +191,21 @@ h4{
 .how-to-plant {
  display: none;
 
+}
+/*-------------------------------- weather -------------------------------- */
+.bg {
+     background-color: #9fb8ad;
+}
+
+.weatherReport{
+  width: 30%;
+  margin: 20% auto;
+  border-radius: 25px;
+  background-color: #c5d7bd;
+
+}
+
+
+#cityInput{
+  height: 30px;
 }
